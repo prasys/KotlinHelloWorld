@@ -24,6 +24,6 @@ class ExampleInstrumentedTest {
     fun testFirstFragmentString() {
         // Context of the app under test.
         val myTextFromResources = InstrumentationRegistry.getInstrumentation().targetContext.getString(R.string.hello_first_fragment)
-        assertEquals(myTextFromResources, "Hello World!")
+        assertEquals(myTextFromResources, "Hello first fragment")
     }
 }
