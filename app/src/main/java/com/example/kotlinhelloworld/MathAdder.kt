@@ -8,6 +8,6 @@ class MathAdder {
      */
     fun add(a: Int, b: Int): Int {
         //return 0;
-        return a + b
+        return a - b
     }
 }
