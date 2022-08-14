@@ -1,0 +1,23 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+$dokka.location:com.example.kotlinhelloworld////PointingToDeclaration/app/com.example.kotlinhelloworld/index.html
+$dokka.location:com.example.kotlinhelloworld/FirstFragment///PointingToDeclaration/app/com.example.kotlinhelloworld/-first-fragment/index.html
+$dokka.location:com.example.kotlinhelloworld/FirstFragment/FirstFragment/#/PointingToDeclaration/app/com.example.kotlinhelloworld/-first-fragment/-first-fragment.html
+$dokka.location:com.example.kotlinhelloworld/FirstFragment/onCreateView/#android.view.LayoutInflater#android.view.ViewGroup?#android.os.Bundle?/PointingToDeclaration/app/com.example.kotlinhelloworld/-first-fragment/on-create-view.html
+$dokka.location:com.example.kotlinhelloworld/FirstFragment/onDestroyView/#/PointingToDeclaration/app/com.example.kotlinhelloworld/-first-fragment/on-destroy-view.html
+$dokka.location:com.example.kotlinhelloworld/FirstFragment/onViewCreated/#android.view.View#android.os.Bundle?/PointingToDeclaration/app/com.example.kotlinhelloworld/-first-fragment/on-view-created.html
+$dokka.location:com.example.kotlinhelloworld/MainActivity///PointingToDeclaration/app/com.example.kotlinhelloworld/-main-activity/index.html
+$dokka.location:com.example.kotlinhelloworld/MainActivity/MainActivity/#/PointingToDeclaration/app/com.example.kotlinhelloworld/-main-activity/-main-activity.html
+$dokka.location:com.example.kotlinhelloworld/MainActivity/onCreateOptionsMenu/#android.view.Menu/PointingToDeclaration/app/com.example.kotlinhelloworld/-main-activity/on-create-options-menu.html
+$dokka.location:com.example.kotlinhelloworld/MainActivity/onOptionsItemSelected/#android.view.MenuItem/PointingToDeclaration/app/com.example.kotlinhelloworld/-main-activity/on-options-item-selected.html
+$dokka.location:com.example.kotlinhelloworld/MainActivity/onSupportNavigateUp/#/PointingToDeclaration/app/com.example.kotlinhelloworld/-main-activity/on-support-navigate-up.html
+$dokka.location:com.example.kotlinhelloworld/MathAdder///PointingToDeclaration/app/com.example.kotlinhelloworld/-math-adder/index.html
+$dokka.location:com.example.kotlinhelloworld/MathAdder/MathAdder/#/PointingToDeclaration/app/com.example.kotlinhelloworld/-math-adder/-math-adder.html
+$dokka.location:com.example.kotlinhelloworld/MathAdder/add/#kotlin.Int#kotlin.Int/PointingToDeclaration/app/com.example.kotlinhelloworld/-math-adder/add.html
+$dokka.location:com.example.kotlinhelloworld/SecondFragment///PointingToDeclaration/app/com.example.kotlinhelloworld/-second-fragment/index.html
+$dokka.location:com.example.kotlinhelloworld/SecondFragment/SecondFragment/#/PointingToDeclaration/app/com.example.kotlinhelloworld/-second-fragment/-second-fragment.html
+$dokka.location:com.example.kotlinhelloworld/SecondFragment/onCreateView/#android.view.LayoutInflater#android.view.ViewGroup?#android.os.Bundle?/PointingToDeclaration/app/com.example.kotlinhelloworld/-second-fragment/on-create-view.html
+$dokka.location:com.example.kotlinhelloworld/SecondFragment/onDestroyView/#/PointingToDeclaration/app/com.example.kotlinhelloworld/-second-fragment/on-destroy-view.html
+$dokka.location:com.example.kotlinhelloworld/SecondFragment/onViewCreated/#android.view.View#android.os.Bundle?/PointingToDeclaration/app/com.example.kotlinhelloworld/-second-fragment/on-view-created.html
+com.example.kotlinhelloworld
+
