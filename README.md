@@ -10,3 +10,4 @@ I have made an example CI which tests if your apk can be built, if the instrumen
 
 Feel free to fork this out and experiment with my CI. The YML file compiles APK, runs android test (test UI elements) and unit tests (to test logic) 
 
+Dokka test
