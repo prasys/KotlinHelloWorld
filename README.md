@@ -17,6 +17,8 @@ Then you may use my GitHub Actions to your project by clicking it on Actions and
 In addition to that, you would need to include the following line to your Gradle file
 in order to generate a document
 
+![Gradle Image](/docs/gradle.png.png)
+
 Project Gradle File
 
 ```kotlin
@@ -34,6 +36,14 @@ App Gradle File
 
 The instructions here may be out of date, so please check [Dokka](https://github.com/Kotlin/dokka) for more
 details
+
+## Setting up GitHub Pages
+
+To setup GitHub Pages, simply go to Settings and kindly make sure that your GitHub pages is configured as follows 
+
+![Branches Image](/docs/branches.png)
+
+
 ## Badges/CI Verification
 
 You may copy and paste your badge from GitHub actions by clicking on the three dots and pasting it here
