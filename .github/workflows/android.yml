@@ -7,7 +7,7 @@ on:
     branches: [ "master" ]
 
 jobs:
-  build:
+  Build APK 🚀:
 
     runs-on: ubuntu-latest
 
@@ -26,7 +26,7 @@ jobs:
     - name: Build with Gradle
       run: ./gradlew build
 
-  android_tests:
+  Instrumental Tests 🚨:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -40,7 +40,7 @@ jobs:
           api-level: 28
           script: ./gradlew connectedAndroidTest
 
-  unit_tests:
+  Unit Tests 🚨:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -52,7 +52,7 @@ jobs:
         run: ./gradlew test
         
 
-  docs:
+  Generate Docs 📚:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
