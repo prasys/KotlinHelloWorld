@@ -24,8 +24,8 @@ jobs:
       run: ./gradlew dokkaHtml
     - name: Deploy API documentation to Github Pages
       if: ${{github.event_name == 'push'}}
-      uses: JamesIves/github-pages-deploy-action@3.7.1
+      uses: peaceiris/actions-gh-pages@v3
       with:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        BRANCH: gh-pages
-        FOLDER: build/dokka/html
+#        BRANCH: gh-pages
+        publish_dir: ./build/dokka/html
