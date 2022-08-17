@@ -1,8 +1,19 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
+    id 'com.dicedmelon.gradle.jacoco-android'
 }
 apply plugin: "org.jetbrains.dokka"
+
+jacoco {
+    toolVersion = "0.8.7"
+}
+
+tasks.withType(Test) {
+    jacoco.includeNoLocationClasses = true
+    jacoco.excludes = ['jdk.internal.*'] // https://github.com/gradle/gradle/issues/5184
+}
+
 android {
     compileSdk 32
 
@@ -20,6 +31,12 @@ android {
 
 
     buildTypes {
+
+        debug {
+            testCoverageEnabled true // https://github.com/codecov/example-android
+        }
+
+
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
