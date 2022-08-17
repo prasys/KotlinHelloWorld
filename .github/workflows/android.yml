@@ -24,7 +24,10 @@ jobs:
      # working-directory: ./FolderName  #Uncomment me - if your gradle file is inside a folder
       run: chmod +x gradlew
     - name: Build with Gradle
-      run: ./gradlew build
+      uses: reactivecircus/android-emulator-runner@v2
+      with:
+          api-level: 28
+          script: ./gradlew build
 
   Instrumental_Tests:
     runs-on: ubuntu-latest
