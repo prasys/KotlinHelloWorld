@@ -6,16 +6,6 @@ plugins {
 apply plugin: "org.jetbrains.dokka"
 
 
-testOptions {
-        unitTests.all {
-            jacoco {
-                includeNoLocationClasses = true
-            }
-        }
-        unitTests.returnDefaultValues = true
-    }
-
-
 android {
     compileSdk 32
 
