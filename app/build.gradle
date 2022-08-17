@@ -1,9 +1,10 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
-    id 'com.dicedmelon.gradle.jacoco-android'
+    id "com.dicedmelon.gradle.jacoco-android" version "0.1.5"
 }
 apply plugin: "org.jetbrains.dokka"
+
 
 jacoco {
     toolVersion = "0.8.7"
