@@ -1,8 +1,8 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
-    id "com.dicedmelon.gradle.jacoco-android" version "0.1.5"
 }
+apply plugin: "com.dicedmelon.gradle.jacoco-android"
 apply plugin: "org.jetbrains.dokka"
 
 
