@@ -44,6 +44,15 @@ android {
     buildFeatures {
         viewBinding true
     }
+    
+    testOptions {
+        unitTests.returnDefaultValues = true
+        unitTests.all {
+            jacoco {
+                includeNoLocationClasses = true
+            }
+        }
+    }
 
 
 
