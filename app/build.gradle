@@ -25,7 +25,7 @@ android {
     buildTypes {
 
         debug {
-            testCoverageEnabled true // https://github.com/codecov/example-android
+            testCoverageEnabled true // https://github.com/codecov/example-android - we need to add this extra line!!!
         }
 
 
