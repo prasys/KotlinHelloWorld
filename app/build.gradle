@@ -6,15 +6,6 @@ plugins {
 apply plugin: "org.jetbrains.dokka"
 
 
-jacoco {
-    toolVersion = "0.8.7"
-}
-
-tasks.withType(Test) {
-    jacoco.includeNoLocationClasses = true
-    jacoco.excludes = ['jdk.internal.*'] // https://github.com/gradle/gradle/issues/5184
-}
-
 android {
     compileSdk 32
 
