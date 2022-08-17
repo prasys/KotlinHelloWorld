@@ -2,7 +2,7 @@ plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
 }
-apply plugin: 'com.vanniktech.android.junit.jacoco'
+
 apply plugin: "org.jetbrains.dokka"
 
 
