@@ -45,14 +45,15 @@ android {
         viewBinding true
     }
     
-    testOptions {
-        unitTests.returnDefaultValues = true
-        unitTests.all {
-            jacoco {
-                includeNoLocationClasses = true
-            }
+testOptions {
+    unitTests.all {
+        jacoco {
+            includeNoLocationClasses = true
+            excludes = ['jdk.internal.*']       //This line
         }
     }
+    unitTests.returnDefaultValues = true
+}
 
 
 
